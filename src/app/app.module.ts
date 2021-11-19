@@ -15,8 +15,6 @@ import { DocumentaryComponent } from './pages/documentary/documentary.component'
 import { LogoItesoComponent } from './pages/introduction/logo-iteso/logo-iteso.component';
 import { LogoPapComponent } from './pages/introduction/logo-pap/logo-pap.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SafePipe } from './commons/pipes/safe.pipe';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +28,6 @@ import { SafePipe } from './commons/pipes/safe.pipe';
     LogoItesoComponent,
     LogoPapComponent,
     DocumentaryComponent,
-    SafePipe,
   ],
   imports: [
     BrowserModule,
