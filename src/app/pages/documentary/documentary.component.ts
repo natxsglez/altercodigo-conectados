@@ -2,7 +2,6 @@ import { Component, OnInit, TemplateRef, ViewChild} from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
-import { SafePipe } from 'src/app/commons/pipes/safe.pipe';
 import { DocumentaryProcessService } from 'src/app/commons/services/documentary-process.service';
 
 @Component({
