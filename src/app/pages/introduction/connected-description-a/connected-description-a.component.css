@@ -1,0 +1,15 @@
+#container-a{
+    display: flex;
+    margin: 0%;
+    height: 8vw;
+    width: 55vw;
+    position: absolute;
+    align-items: center;
+    top: 3%;
+    left: -5%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

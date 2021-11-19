@@ -1,0 +1,25 @@
+<ng-template #content let-c="close" let-d="dismiss" let-modal>
+    <div class="modal-content">
+        <div class="modal-body">
+            <iframe [src]="currlink" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button id="x-btn" type="button" class="close" aria-label="Close" (click)="closeModal()">X</button>
+        </div>
+    </div>
+</ng-template>
+
+<div class="container">
+    <div class="row">
+        <button class="second" [disabled]="!stages[1]" (click)="openModalWithVideo(1)"><img src="../../../assets/imgs/documentary/2.png"></button>
+        <button class="middle" [disabled]="!stages[2]" (click)="openModalWithVideo(3)"><img src="../../../assets/imgs/documentary/4.png"></button>
+        <button class="middle" [disabled]="!stages[3]" (click)="openModalWithVideo(5)"><img src="../../../assets/imgs/documentary/6.png"></button>
+    </div>
+    <div class="row">
+        <button [disabled]="!stages[0]" (click)="openModalWithVideo(0)"><img src="../../../assets/imgs/documentary/1.png"></button>
+        <button class="last" [disabled]="!stages[4]" (click)="openModalWithVideo(7)"><img src="../../../assets/imgs/documentary/8.png"></button>
+    </div>
+    <div class="row">
+        <button class="second" [disabled]="!stages[1]" (click)="openModalWithVideo(2)"><img src="../../../assets/imgs/documentary/3.png"></button>
+        <button class="middle" [disabled]="!stages[2]" (click)="openModalWithVideo(4)"><img src="../../../assets/imgs/documentary/5.png"></button>
+        <button class="middle" [disabled]="!stages[3]" (click)="openModalWithVideo(6)"><img src="../../../assets/imgs/documentary/7.png"></button>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.presenting-container{
+    display: flex;
+    margin: 0%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+}
+
+#presenting {
+    width: 100%;
+    height: 100%;
+}

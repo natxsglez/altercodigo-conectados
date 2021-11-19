@@ -1,0 +1,8 @@
+<app-logo-iteso *ngIf="introState === 'iteso'"></app-logo-iteso>
+<app-logo-pap *ngIf="introState === 'pap'"></app-logo-pap>
+<app-presenting *ngIf="introState === 'presenting'"></app-presenting>
+<app-web-documentary *ngIf="introState === 'web-documentary'"></app-web-documentary>
+<app-connected *ngIf="introState === 'connected'"></app-connected>
+<audio preload="true" autoplay="true" loop="true" #audio>
+    <source src="../../../assets/audios/introduction-audio.mp3" type="audio/mp3">
+</audio>

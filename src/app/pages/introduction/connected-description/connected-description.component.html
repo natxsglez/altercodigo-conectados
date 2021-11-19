@@ -1,0 +1,8 @@
+<div class="connected-description-container">
+    <app-connected-description-a *ngIf="descriptionSelector == 'a'" id="connected-a"></app-connected-description-a>
+    <app-connected-description-b *ngIf="descriptionSelector == 'b'" id="connected-b"></app-connected-description-b>
+</div>
+<div class="start-button-container" *ngIf="descriptionSelector == 'b'">
+    <button id="start-btn" (click)="onClick()">Auka</button>
+    <p>Inicia aquí</p>
+</div>

@@ -1,0 +1,16 @@
+.logo-container{
+    display: flex;
+    margin: 0%;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+#pap {
+    width: 60%;
+    height: 60%;
+    margin: 0% 0% 0% 25%;
+}

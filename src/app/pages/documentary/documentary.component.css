@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    display: table;
+    justify-content: center;
+    margin: 2vw 0vw 0vw 12vw;
+    padding: 0%;
+}
+
+.close {
+    color:red;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    font-size: xx-large;
+}
+
+.row {
+    display: table-row;
+}
+
+.second {
+    margin-left: 11vw;
+    margin-right: 1vw;
+}
+
+.middle {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#x-btn {
+    height: 5vw;
+    width: 8vw;
+    right: 0;
+    top: -8;
+    border-radius: 50%;
+}
+
+button {
+    height: 13vw;
+    width: 16vw;
+    border: none;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border-radius: 25px;
+}
+
+iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.modal-content {
+    height: 40vw;
+    width: 80vw;
+    right: 95%;
+    background: transparent !important;
+    border: 0 !important;
+}
+.modal-body {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    margin: 0%;
+    display: inline-table;
+}
+
+.last {
+    margin-left: 40vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    iframe {
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    iframe {
+        left: 100%;
+    }
+}

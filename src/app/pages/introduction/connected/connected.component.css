@@ -1,0 +1,14 @@
+.connected-container, .description-container{
+    display: flex;
+    margin: 0%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#connected-title {
+    width: 100%;
+    height: 100%;
+}
